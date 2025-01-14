@@ -9,6 +9,6 @@ In this project, I fit a logistic regression model from scratch using Python. To
 
 **functions.py**- Python file which contains functions used for model fitting.
 
-**test_case**- Python test case file. This file uses functions from functions.py to manually fit a logistic regression model, from data cleaning to parameter convergence.
+**test_case**- Python test case file. This file uses functions from functions.py to manually fit a logistic regression model, from data import to parameter convergence.
 
 
