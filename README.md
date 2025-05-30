@@ -10,4 +10,4 @@ In this project, I fit a logistic regression model from scratch using Python. To
 **test_case**- Python test case file. This file uses functions from functions.py to manually fit a logistic regression model, from data import to parameter convergence. 
 
 # Dataset
-I imported the dataset("dataset.csv" in "test_case.py") from Kaggle. Here is a direct link to the dataset in Kaggle: https://www.kaggle.com/datasets/mlg-ulb/creditcardfraud
+I imported the dataset ("dataset.csv" in "test_case.py") from Kaggle. Here is a direct link to the dataset in Kaggle: https://www.kaggle.com/datasets/mlg-ulb/creditcardfraud
