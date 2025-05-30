@@ -15,7 +15,7 @@ subset_data_values = subset_data.values
 # Create design matrix for three variable dataset
 design_matrix_ = design_matrix(subset_data_values) 
 
-# Make initial guess for true parameters
+# Make initial guess for parameters
 initial_params = np.array([.50, .70, .12])  
  
 # Use Newton Raphson Method to find logistic regression parameters which maximize the log-likelihood function.
