@@ -27,7 +27,7 @@ def design_matrix(dataset):
     design_matrix = np.hstack((np.ones(len(dataset))[:, np.newaxis], dataset[:, :(len(dataset[0]) - 1)]))
     return design_matrix
 '''
-This function converts a dataset into a design matrix(it adds a column of 1's and gets rid of the dependent variable). 
+This function converts a dataset into a design matrix (it adds a column of 1's and gets rid of the dependent variable). 
 This design matrix will be used in the later functions for calculations.
 
 Parameters
@@ -47,7 +47,7 @@ def probability_iteration(design_matrix, parameter_vector):
         probability_vector[i] = sigmoid(design_matrix[i], parameter_vector)
     return probability_vector
 '''
-This function calculates the probability of each row of the design matrix(it evaluates the sigmoid for each row). These 
+This function calculates the probability of each row of the design matrix (it evaluates the sigmoid for each row). These 
 probabilities are used to construct the gradient vector and the hessian matrix of the log-likelihood.
 
 Parameters
@@ -74,7 +74,7 @@ def Gradient(dataset, design_matrix, probability_vector):
         summation = 0
     return gradient_vector  
 '''
-This function constructs the gradient vector of the log-likelihood(iterative formula found in Agresti, section 5.4.1, 
+This function constructs the gradient vector of the log-likelihood (iterative formula found in Agresti, section 5.4.1, 
 page 176- cited in the report).
 
 Parameters
@@ -108,7 +108,7 @@ def Hessian(design_matrix, probability_vector):
             summation = 0
     return hessian
 '''
-This function constructs the hessian matrix of the log-likelihood(iterative formula found in Agresti, section 5.4.1, 
+This function constructs the hessian matrix of the log-likelihood (iterative formula found in Agresti, section 5.4.1, 
 page 176- cited in the report).
 
 Parameters
@@ -149,7 +149,7 @@ design_matrix: 2D NumPy array
 Matrix containing a column of 1's for the regression intercept and the independent variables.
 
 parameter_estimates: 1D NumPy array
-Vector containing inital logistic regression parameter estimates(initial parameter guesses).
+Vector containing inital logistic regression parameter estimates (initial parameter guesses).
 
 Returns
 -------
