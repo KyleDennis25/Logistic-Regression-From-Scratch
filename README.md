@@ -5,7 +5,7 @@ In this project, I fit a logistic regression model from scratch using Python. To
 # File Descriptions
 **Report.md**- Comprehensive project report, which includes the mathematical background to the optimization procedure used throughout the project.
 
-**functions.py**- Python file which contains functions used for model fitting.
+**functions.py**- Python file containing functions used for model fitting.
 
 **test_case**- Python test case file. This file uses functions from functions.py to manually fit a logistic regression model, from data import to parameter convergence. 
 
