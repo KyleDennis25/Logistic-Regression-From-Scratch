@@ -3,7 +3,7 @@
 
 ## Overview  
 
-In this project, my goal is to fit a logistic regression model from scratch, using Python. Instead of using existing libraries such as scikit-learn for model fitting, I will build algorithms from the ground up. The purpose of this work is to help understand the mathematics behind logistic regression.  
+In this project, my goal is to fit a logistic regression model from scratch, using Python. Instead of using existing libraries such as scikit-learn for model fitting, I will build algorithms from the ground up. My end goal is to have a greater understanding of how logistic regression works "under the hood."  
 
 
 The main algorithm I will implement is the **Newton-Raphson algorithm**. This algorithm, at the fundamental level, iteratively estimates the roots of a function. In this application, I will use it to estimate logistic regression parameters that best fit a dataset. The dataset I chose contains data on credit card transactions and indicates whether they were fraudulent or not. The logistic regression model will be trained to predict fraud using a subset of features.
