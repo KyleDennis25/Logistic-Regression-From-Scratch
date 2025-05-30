@@ -3,10 +3,10 @@
 
 ## Overview  
 
-In this project, my goal is to fit a logistic regression model from scratch, using Python. Instead of using existing libraries such as scikit-learn for model fitting, I will build algorithms from the ground up. My end goal is to have a greater understanding of how logistic regression works "under the hood."  
+In this project, my goal was to fit a logistic regression model from scratch, using Python. Instead of using existing libraries such as scikit-learn for model fitting, I built algorithms from the ground up. My end goal was to have a greater understanding of how logistic regression works "under the hood."  
 
 
-The main algorithm I will implement is the **Newton-Raphson algorithm**. This algorithm, at the fundamental level, iteratively estimates the roots of a function. In this application, I will use it to estimate logistic regression parameters that best fit a dataset. The dataset I chose contains data on credit card transactions and indicates whether they were fraudulent or not. The logistic regression model will be trained to predict fraud using a subset of features.
+The main algorithm I implemented was the **Newton-Raphson algorithm**. This algorithm, at the fundamental level, iteratively estimates the roots of a function. In this application, I used it to estimate logistic regression parameters that best fit a dataset. The dataset I chose contains data on credit card transactions and indicates whether they were fraudulent or not. The logistic regression model was trained to predict fraud using a subset of features.
 
 ## Mathematical Background  
 
@@ -26,10 +26,10 @@ Logistic regression at its core predicts the probability of a binary outcome. It
 
 ## Dataset  
 
-The dataset I will use contains credit card transactions made in September 2013 by European cardholders. The data has been collected and analyzed during a research collaboration of Worldline and the Machine Learning Group of ULB on big data mining and fraud detection. The sample size of this dataset is 284,807 transactions.  
+The dataset I used contains credit card transactions made in September 2013 by European cardholders. The data has been collected and analyzed during a research collaboration of Worldline and the Machine Learning Group of ULB on big data mining and fraud detection. The sample size of this dataset is 284,807 transactions.  
 
 
-For model fitting, I will be using the independent variables **“V1”** and **“V2”** to predict the dependent variable **“Class”**. The V1 and V2 variables are principal components resulting from a principal components analysis. The original variables and their contexts are anonymous to maintain confidentiality (Machine Learning Group 2013). The class variable is binary: 1 represents a fraudulent transaction and 0 represents a non-fraudulent transaction.
+For model fitting, I used the independent variables **“V1”** and **“V2”** to predict the dependent variable **“Class”**. The V1 and V2 variables are principal components resulting from a principal components analysis. The original variables and their contexts are anonymous to maintain confidentiality (Machine Learning Group 2013). The class variable is binary: 1 represents a fraudulent transaction and 0 represents a non-fraudulent transaction.
 
 ## Reflection  
 
